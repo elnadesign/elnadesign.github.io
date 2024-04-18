@@ -2,56 +2,8 @@
     box-sizing: border-box;
 }
 
-/* typeface 
-  .dm-mono-light {
-    font-family: "DM Mono", monospace;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .dm-mono-regular {
-    font-family: "DM Mono", monospace;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .dm-mono-medium {
-    font-family: "DM Mono", monospace;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .dm-mono-light-italic {
-    font-family: "DM Mono", monospace;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .dm-mono-regular-italic {
-    font-family: "DM Mono", monospace;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .dm-mono-medium-italic {
-    font-family: "DM Mono", monospace;
-    font-weight: 500;
-    font-style: italic;
-  }
 
-  // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
-
-.tourney-<uniquifier> {
-  font-family: "Tourney", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
-
-font-family: "flegrei", sans-serif;
+/*font-family: "flegrei", sans-serif;
 font-weight: 400;
 font-style: normal;
 */  
@@ -72,8 +24,8 @@ h1,h2,h3,h3,h4,h5,h6 {
 
 nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 20px;
     width: 33%;
     background-color: #ffffff00;
     position: fixed;
@@ -94,9 +46,12 @@ nav li a.active {
     background-color:  #ffffff00;
 
 }
+
+
   
 nav li a:hover:not(.active) {
     color: rgb(171, 150, 57);
+    
 }
 
 div.content{
@@ -112,7 +67,7 @@ div.content{
 
 img.blart {
     max-width: 900px;
-    min-width: 25%;
+    min-width: 250px;
     display: block;
     margin-left: auto;
     margin-right: auto;
