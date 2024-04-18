@@ -1,0 +1,263 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  div {
+    display: inline-block;
+    width: 100vw;
+    padding: 1vw;
+  }
+  
+  h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-top: 0.3em;
+  }
+  
+  p, ul, ol, li {
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-top: 0;
+    padding-left: 2em;
+  }
+  
+  #hero {
+    position: relative;
+    height: 90vh;
+    width: 100%;
+    background-image: url("https://elnazarov.reclaim.hosting/shelter/logo.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-color: white;
+  }
+  
+  #hero h1 {
+    position: absolute;
+    bottom: 20px;
+    right: 35px;
+    /*margin: 0;
+    padding: 0;
+    bottom: 10px;
+    left: 20px;*/
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+  }
+  
+  #des {
+    background-color:rgb(255, 255, 255);
+    border: solid;
+    border-width: 10px;
+  }
+  
+  #ing {
+    background-color:rgb(255, 255, 255);
+    border: solid;
+    border-width: 10px;
+    margin-top: 10px;
+    
+  }
+  
+  #dir {
+    background-color:rgb(255, 255, 255);
+    border: solid;
+    border-width: 10px;
+    margin-top: 10px;
+  }
+
+  #styleguide {
+    position: relative;
+    height: 230vh;
+    width: 100%;
+    background-image: url("https://elnazarov.reclaim.hosting/shelter/sellasstyleguide.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-color: white;
+  }
+
+  #menufront {
+    position: relative;
+    height: 120vh;
+    width: 100%;
+    background-image: url("https://elnazarov.reclaim.hosting/shelter/menufront.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-color: white;
+  }
+
+  #menuback {
+    position: relative;
+    height: 120vh;
+    width: 100%;
+    background-image: url("https://elnazarov.reclaim.hosting/shelter/menuback.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-color: white;
+  }
+
+  #packaging {
+    position: relative;
+    height: 120vh;
+    width: 100%;
+    background-image: url("https://elnazarov.reclaim.hosting/shelter/packaging.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-color: white;
+  }
+
+  #packaging2 {
+    position: relative;
+    height: 120vh;
+    width: 100%;
+    background-image: url("https://elnazarov.reclaim.hosting/shelter/packaging2.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-color: white;
+  }
+
+  #bcal {
+    position: relative;
+    height: 50vh;
+    width: 33.33%;
+    background-image: url("https://elnazarov.reclaim.hosting/shelter/shirtblackcal.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-color: white;
+  }
+
+  #bpie {
+    position: relative;
+    height: 50vh;
+    width: 33.33%;
+    background-image: url("https://elnazarov.reclaim.hosting/shelter/shirtblackpie.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-color: white;
+  }
+
+  #btwist {
+    position: relative;
+    height: 50vh;
+    width: 33.33%;
+    background-image: url("https://elnazarov.reclaim.hosting/shelter/shirtblacktwist.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-color: white;
+  }
+
+  #gpie {
+    position: relative;
+    height: 50vh;
+    width: 33.33%;
+    background-image: url("https://elnazarov.reclaim.hosting/shelter/shirtgreypie.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-color: white;
+  }
+
+  #gtwist {
+    position: relative;
+    height: 50vh;
+    width: 33.33%;
+    background-image: url("https://elnazarov.reclaim.hosting/shelter/shirtgreytwist.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-color: white;
+  }
+
+  #gcal {
+    position: relative;
+    height: 50vh;
+    width: 33.33%;
+    background-image: url("https://elnazarov.reclaim.hosting/shelter/shirtgreycal.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-color: white;
+  }
+
+
+
+
+  
+  
+  span {
+    font-style: italic;
+  }
+  
+  footer {
+    font-size: 12px;
+  }
+    
+  
+  /* responsive design */
+  
+  @media (orientation: landscape) {
+    
+    div#columns div {
+      width: calc(100%);
+      float: left;
+    }
+  }
+
+  @media (orientation: landscape) {
+    
+    div#shirtblack div {
+      width: calc(33.33%);
+      float: left;
+    }
+  }
+
+  @media (orientation: landscape) {
+    
+    div#shirtgrey div {
+      width: calc(33.33%);
+      float: left;
+    }
+  }
+  
+  
+  
+  @media (max-width: 575px) {
+   
+    h2 {
+      font-size: 2em;
+    }
+    p, ul, ol, li {
+      font-size: .75em;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  /* junk 
+  
+   --- side by side columns ----
+  div#columns {
+    position: relative;
+  }
+  
+  div#columns div {
+    width: 50%;
+    float: left;
+  }
+  
+  div#columns:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  
+  ---------------
+  
