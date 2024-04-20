@@ -74,6 +74,16 @@ img.blart {
     width: 100%;
 }  
 
+img.logo {
+    max-width: 400px;
+    min-width: 26%;
+    margin: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 67%;
+}  
+
 
 /*
 .forUA {
