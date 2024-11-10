@@ -40,7 +40,7 @@ h1,h2 {
 .cormorant-<uniquifier> {
   font-family: "Cormorant", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 300;
   font-style: normal;
 }
 
